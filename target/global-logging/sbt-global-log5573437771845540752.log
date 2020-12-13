@@ -1,0 +1,23 @@
+[debug] > Exec(;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "/home/subhrangshu/.local/share/JetBrains/IntelliJIdea2020.3/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure, Some(82dc4dd2-4746-4ad2-8b03-c6fe0f2cdc00), Some(CommandSource(console0)))
+[debug] > Exec(set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("/tmp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers"), None, Some(CommandSource(console0)))
+[info] Defining Global / sbtStructureOptions, Global / sbtStructureOutputFile and 1 others.
+[info] The new values will be used by cleanKeepGlobs
+[info] 	Run `last` for details.
+[debug] Defining 
+[debug] 	Global / sbtStructureOptions
+[debug] 	Global / sbtStructureOutputFile
+[debug] 	history
+[debug] 	shellPrompt
+[debug] 
+[debug] The new values will be used by 
+[debug] 	cleanKeepGlobs
+[info] Reapplying settings...
+[info] set current project to SparkTest (in build file:/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/)
+[debug] > Exec(apply -cp "/home/subhrangshu/.local/share/JetBrains/IntelliJIdea2020.3/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar" org.jetbrains.sbt.CreateTasks, None, Some(CommandSource(console0)))
+[info] Applying State transformations org.jetbrains.sbt.CreateTasks from /home/subhrangshu/.local/share/JetBrains/IntelliJIdea2020.3/Scala/repo/org.jetbrains/sbt-structure-extractor/scala_2.12/sbt_1.0/2020.3/jars/sbt-structure-extractor.jar
+[info] Reapplying settings...
+[info] set current project to SparkTest (in build file:/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/)
+[debug] > Exec(*/*:dumpStructure, None, Some(CommandSource(console0)))
+[debug] Evaluating tasks: Global / dumpStructure
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[info] shutting down sbt server
