@@ -1,5 +1,3 @@
-This is a test
-random tests are being performed here
-tests here and there
-more such tests to perform
-More spark
+# Spark Submit Sample Project
+
+Integrating with CQL Connector soon and performing sample distributed processing.

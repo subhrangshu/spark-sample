@@ -10,3 +10,5 @@ $ YOUR_SPARK_HOME/bin/spark-submit \
   target/scala-2.12/simple-project_2.12-1.0.jar
 ...
 Lines with a: 46, Lines with b: 23
+
+spark-submit --class "SparkTest" --master local[4] target/scala-2.12/sparktest_2.12-1.0.jar

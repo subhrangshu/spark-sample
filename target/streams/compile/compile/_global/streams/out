@@ -1,0 +1,13 @@
+[0m[[0m[31merror[0m] [0m[0m/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/src/main/scala/SparkTest.scala:2:8: object SparkSession is not a member of package org.apache.spark.sql[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/src/main/scala/SparkTest.scala:9:17: not found: value SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m    val spark = SparkSession.builder.appName("SparkTest").getOrCreate()[0m
+[0m[[0m[31merror[0m] [0m[0m                ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/src/main/scala/compute/Compute.scala:5:8: object SparkSession is not a member of package org.apache.spark.sql[0m
+[0m[[0m[31merror[0m] [0m[0mimport org.apache.spark.sql.SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m       ^[0m
+[0m[[0m[31merror[0m] [0m[0m/mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/src/main/scala/compute/Compute.scala:8:26: not found: type SparkSession[0m
+[0m[[0m[31merror[0m] [0m[0m  def sessiondata(spark: SparkSession) = {[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mfour errors found[0m
