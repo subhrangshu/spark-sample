@@ -1,0 +1,21 @@
+# Package a jar containing your application
+$ sbt package
+...
+[info] Packaging {..}/{..}/target/scala-2.12/simple-project_2.12-1.0.jar
+
+# Use spark-submit to run your application
+$ YOUR_SPARK_HOME/bin/spark-submit \
+  --class "SimpleApp" \
+  --master local[4] \
+  target/scala-2.12/simple-project_2.12-1.0.jar
+...
+Lines with a: 46, Lines with b: 23
+
+spark-submit --class "SparkTest" --master local[4] target/scala-2.12/sparktest_2.12-1.0.jar
+--packages datastax:spark-cassandra-connector:2.4.2-s_2.12
+
+Working:
+spark-submit --class "SparkTest" --jars localDependencies/spark-cassandra*,localDependencies/spark-sql* target/scala-2.11/sparktest_2.11-1.0.jar
+
+Shorter:
+spark-submit --class "SparkTest" --jars $(echo localDependencies/*.jar | tr ' ' ',') target/scala-2.11/sparktest_2.11-1.0.jar
