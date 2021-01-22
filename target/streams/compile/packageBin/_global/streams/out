@@ -1,13 +1,1 @@
-[0m[[0m[0mdebug[0m] [0m[0mPackaging /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/sparktest_2.12-1.0.jar ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	compute[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/classes/compute[0m
-[0m[[0m[0mdebug[0m] [0m[0m	compute/Compute$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/classes/compute/Compute$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	compute/Compute.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/classes/compute/Compute.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SparkTest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/classes/SparkTest$.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	SparkTest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0m	  /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.12/classes/SparkTest.class[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
+[0m[[0m[0mdebug[0m] [0m[0mJar uptodate: /mnt/1F8376FA6D76E846/IdeaProjects/Tests/SparkTest/target/scala-2.11/sparktest_2.11-1.0.jar[0m
